@@ -11,7 +11,7 @@
 
 * 2、创建shell脚本runUpdateClashRules.sh，用来运行上面的python代码，注意目录替换。
 
-* 3、创建launchd定时任务配置文件com.updateclashrules.plist，并将它放到~/Library/LaunchAgents目录下，执行launchctl load -w com.updateclashrules.plist。
+* 3、创建launchd定时任务配置文件com.updateclashrules.plist，并将它放到~/Library/LaunchAgents目录下，执行launchctl load -w com.updateclashrules.plist。launchd命令参考：[launchd info](https://www.launchd.info/)
 
 * 4、验证，tail -f /Users/roc/.config/clash/UpdateClashRules.log查看是否按照预定的时间间隔执行任务并尝试访问规则里的域名确认生效。
 

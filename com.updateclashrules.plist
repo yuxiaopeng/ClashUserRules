@@ -6,13 +6,13 @@
   <string>com.updateclashrules.plist</string>
   <key>ProgramArguments</key>
   <array>
-    <string>/Users/[replace your user home directory]/.config/clash/runUpdateClashRules.sh</string>
+    <string>/Users/roc/.config/clash/runUpdateClashRules.sh</string>
   </array>
   <key>StartInterval</key>
-    <integer>3</integer>
+    <integer>3600</integer>
 <key>StandardOutPath</key>
-<string>/Users/[replace your user home directory]/.config/clash/runUpdateClashRulesCtl.log</string>
+<string>/Users/roc/.config/clash/runUpdateClashRulesCtl.log</string>
 <key>StandardErrorPath</key>
-<string>/Users/[replace your user home directory]/.config/clash/runUpdateClashRulesCtl.err</string>
+<string>/Users/roc/.config/clash/runUpdateClashRulesCtl.err</string>
 </dict>
 </plist>
